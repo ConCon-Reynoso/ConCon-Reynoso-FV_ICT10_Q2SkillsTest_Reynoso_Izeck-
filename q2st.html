@@ -1,0 +1,32 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
+    <script defer src="https://pyscript.net/releases/2024.2.1/pyscript.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>dictionary</title>
+    
+</head>
+<body>
+    <form method="post">
+        <h1>School Club Information</h1>
+        <label>Select a Club:</label>
+        <select id="select_club">
+            <option value="socsci">SocSci Club</option>
+            <option value="math">Math Club</option>
+            <option value="bball">Basketball Varsity</option>
+            <option value="cocc">COCC</option>
+            <option value="dance">Dance Club</option>
+            <option value="band">Marching Band</option>
+        </select><br><br>
+        <button type="button" id="show_info">Show Club Information</button>
+        <pre id="club_info"></pre>
+    </form>
+     <py-config>
+        [[fetch]]
+        files = ["q2stmain.py"]
+    </py-config>
+    <script type="py" src="q2stmain.py"></script>
+</body>
+</html>

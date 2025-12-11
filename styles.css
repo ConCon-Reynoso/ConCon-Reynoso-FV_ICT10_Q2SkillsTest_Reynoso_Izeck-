@@ -1,0 +1,40 @@
+ /*CSS file for styling the HTML page*/
+ body {
+        font-family: Arial, sans-serif;
+        background-color:#f0f0f0;
+    }
+
+    h1 {
+        color: rgb(40, 175, 173);
+        font-size: x-large;
+        font-family:Verdana, Geneva, Tahoma, sans-serif
+    }
+
+    label {
+        color: rgb(20, 139, 80);
+        font-size: medium;
+    }
+    
+    select {
+        color: rgb(20, 139, 80);
+        font-size: medium;
+    }
+
+    button {
+        background-color: rgb(40, 175, 173);
+        color: rgb(234, 242, 242);
+        font-size: small;
+        border: none;
+        padding: 8px 16px;
+        cursor: pointer;
+    }
+
+    pre {
+        width: 50%;
+        background-color: rgb(255, 255, 255);
+        border: 1px solid #ccc;
+        padding: 10px;
+        font-size: medium;
+        font-family:Verdana, Geneva, Tahoma, sans-serif
+    }
+  
